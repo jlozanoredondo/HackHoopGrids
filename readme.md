@@ -1,27 +1,31 @@
 # HackHoopGrids
 
-HackHoopGrids es una aplicación web para explorar datos de la NBA.
+This is a web application developed in Python using the Flask framework. It connects to a SQLite database and allows users to select two NBA teams and view players who have played on both teams. The application presents data up to July 2023.
 
-## Funcionalidades
+![Screenshot](./static/images/screenshot.png)
 
-La aplicación permite seleccionar dos equipos de la NBA y visualiza los jugadores que han jugado en ambos equipos.
+## How to Run the Application
 
-## Instalación
+### Prerequisites
 
-Sigue los siguientes pasos para configurar y ejecutar el proyecto:
+Before you can run the application, make sure that you have installed:
 
-1. Clona este repositorio en tu máquina local usando `git clone https://github.com/jlozanoredondo/HackHoopGrids.git` 
+- [Python 3.9+](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/)
+- [SQLite](https://www.sqlite.org/index.html)
 
-2. Cambia al directorio del proyecto `cd HackHoopGrids`.
+### Steps
 
-3. Instala las dependencias necesarias usando `pip install -r requirements.txt`.
+1. Clone the repository or download the ZIP file and extract it.
+2. Navigate to the repository folder from the terminal.
+3. Install the required dependencies with `pip install -r requirements.txt`.
+4. Run the application with `python app.py`.
+5. Open a web browser and navigate to `http://127.0.0.1:5000`.
 
-## Uso
+## How to Contribute
 
-Para ejecutar la aplicación, usa el comando `python hackhoopgrids.py`.
+Contributions are always welcome! Please read our contributing guidelines before you start.
 
-Una vez que la aplicación se está ejecutando, abre tu navegador y visita `http://127.0.0.1:5000/` para ver la aplicación en acción.
+## License
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si encuentras algún problema o tienes alguna sugerencia, por favor abre un issue.
+This project is licensed under the terms of the MIT license.
