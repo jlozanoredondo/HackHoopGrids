@@ -4,6 +4,8 @@ This is a web application developed in Python using the Flask framework. It conn
 
 ![Screenshot](./static/images/screenshot.png)
 
+Try it out here: [http://jlozanoredondo.pythonanywhere.com/](http://jlozanoredondo.pythonanywhere.com/)
+
 ## How to Run the Application
 
 ### Prerequisites
@@ -25,7 +27,3 @@ Before you can run the application, make sure that you have installed:
 ## How to Contribute
 
 Contributions are always welcome! Please read our contributing guidelines before you start.
-
-## License
-
-This project is licensed under the terms of the MIT license.
